@@ -1,0 +1,10 @@
+.home{
+    display: flex;
+    flex-direction:row;
+}
+.homeItem1{
+    width: 50%;
+}
+.homeItem2{
+    width: 50%;
+}

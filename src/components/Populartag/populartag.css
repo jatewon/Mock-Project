@@ -1,0 +1,39 @@
+.populartag {
+  flex: 5;
+  margin: 20px;
+  padding-bottom: 30px;
+  background-color: #fdfbfb;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.populartagItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.populartagTitle {
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+  border-bottom: 1px solid #a7a4a4;
+  font-family: "Varela Round", sans-serif;
+  font-size: 12px;
+  color: #222;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+.populartagList {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.populartagListItem {
+  display: inline-block;
+  width: 50%;
+  margin-top: 15px;
+  cursor: pointer;
+}
